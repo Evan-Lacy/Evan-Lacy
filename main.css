@@ -1,0 +1,46 @@
+body{
+    font-family: Georgia;
+}
+
+h1{
+    color: #37ae41;
+    font-weight: 700;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/*Navbar at top*/
+
+.navBar{
+    position: fixed;
+    width: 100%;
+}
+
+/* The Jumbotron, for whatever reason that name exists */
+
+.jumbotron{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#jumboContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*About me*/
+
+/*Skills and lists*/
+
+/*Contact me form*/
+
+/*Footer*/
