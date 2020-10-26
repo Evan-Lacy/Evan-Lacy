@@ -1,3 +1,5 @@
+/*Style points for the whole shebang*/
+
 body{
     font-family: Georgia;
 }
@@ -13,9 +15,30 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 /*Navbar at top*/
 
-.navBar{
+.navbar{
     position: fixed;
     width: 100%;
+}
+
+nav{
+    background-color: black;
+    z-index: 5;
+}
+
+.navbar-brand{
+    margin-left: 15%;
+}
+
+#navbarNav{
+    margin-left: 35%;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+#navbarNav{
+    margin: 0;
 }
 
 /* The Jumbotron, for whatever reason that name exists */
