@@ -38,14 +38,14 @@ nav{
 }
 
 #navbarNav{
-    margin: 0;
+    margin-left: 35%;
 }
 
 /* The Jumbotron, for whatever reason that name exists */
 
 .jumbotron{
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     text-align: center;
@@ -81,21 +81,29 @@ nav{
 
 /*About me*/
 #aboutMe{
-    border: solid black;
-    border-style: 5px 0px 0px 0px;
+    /* border: solid black; */
+    /* border-style: solid black 5px 0px 0px 0px; */
+    border-top: solid 5px black;
+    padding-top: 3%;
 }
 
 .aboutTitle{
     text-align: center;
     display: block;
+    margin: auto;
+    /* vertical-align: middle; */
+}
+
+.aboutTitle h1{
+    margin-bottom: 10%;
 }
 
 .textBox{
     display: block;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-style: inset;
     width: 50em;
-    margin-left: -10%;
+    margin-left: -15%;
     padding: 25px;
 }
 
@@ -114,7 +122,8 @@ nav{
 }
 
 .linkButton{
-    margin: 10em;
+    margin: 5em;
+    margin-left: 17em;
     padding:15px;
 }
 
@@ -123,6 +132,8 @@ nav{
 }
 
 /*Skills and lists*/
+
+
 
 /*Contact me form*/
 
