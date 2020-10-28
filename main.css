@@ -126,4 +126,42 @@ nav{
 
 /*Contact me form*/
 
+#contact{
+    background-image: url("./assets/Spitzer\ Telescope\ Peony\ Nebula.jpg");
+    background-size: cover;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#contact h1{
+    text-align: center;
+    color: #37ae41;
+}
+
+form{
+    width: 55%;
+    margin: auto;
+    padding: 1em;
+}
+
+#fullName{
+    margin-right: 13px;
+}
+
+#contactEmail{
+    margin-top: 1em;;
+}
+
+label{
+    color: white;
+    text-decoration: underline;
+}
+
+.subBtn{
+    vertical-align: middle;
+    display: inline-block;
+    padding: .375rem .75rem;
+}
+
 /*Footer*/
