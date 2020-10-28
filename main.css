@@ -80,8 +80,23 @@ nav{
 }
 
 /*About me*/
+#aboutMe{
+    border: solid black;
+    border-style: 5px 0px 0px 0px;
+}
+
 .aboutTitle{
     text-align: center;
+    display: block;
+}
+
+.textBox{
+    display: block;
+    border: solid 2px black;
+    border-style: inset;
+    width: 50em;
+    margin-left: -10%;
+    padding: 25px;
 }
 
 .display-2{
@@ -91,6 +106,20 @@ nav{
 .aboutText{
     text-align: center;
     margin: auto;
+    display: block;
+}
+
+.gallery{
+    margin-left: -37%;
+}
+
+.linkButton{
+    margin: 10em;
+    padding:15px;
+}
+
+.linkButton:hover{
+    opacity: 0.8;
 }
 
 /*Skills and lists*/
