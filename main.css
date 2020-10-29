@@ -38,7 +38,7 @@ nav{
 }
 
 #navbarNav{
-    margin-left: 35%;
+    margin-left: 50%;
 }
 
 /* The Jumbotron, for whatever reason that name exists */
@@ -81,8 +81,6 @@ nav{
 
 /*About me*/
 #aboutMe{
-    /* border: solid black; */
-    /* border-style: solid black 5px 0px 0px 0px; */
     border-top: solid 5px black;
     padding-top: 3%;
 }
@@ -91,7 +89,6 @@ nav{
     text-align: center;
     display: block;
     margin: auto;
-    /* vertical-align: middle; */
 }
 
 .aboutTitle h1{
@@ -99,11 +96,8 @@ nav{
 }
 
 .textBox{
-    display: block;
-    /* border: solid 2px black; */
     border-style: inset;
-    width: 50em;
-    margin-left: -15%;
+    width: 100%;
     padding: 25px;
 }
 
@@ -117,8 +111,14 @@ nav{
     display: block;
 }
 
+.textBox p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .gallery{
-    margin-left: -37%;
+    float: left;
+    width: 100%;
 }
 
 .linkButton{
