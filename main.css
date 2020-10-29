@@ -95,7 +95,7 @@ nav{
 }
 
 .aboutTitle h1{
-    margin-bottom: 10%;
+    margin-bottom: 3rem;
 }
 
 .textBox{
@@ -132,6 +132,15 @@ nav{
 }
 
 /*Skills and lists*/
+#skills{
+    background-image: url("./assets/Geometric\ background.png");
+    background-size: cover;
+    width: 100%;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
 
 
