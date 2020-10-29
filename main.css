@@ -142,7 +142,38 @@ nav{
     padding-bottom: 3%;
 }
 
+.container h1{
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
+.card-title{
+    text-decoration: underline;
+}
+
+.box{
+    padding: 1rem;
+    margin: auto;
+    border:solid 3px red;
+}
+
+.box h3{
+    text-decoration: underline;
+}
+
+#box1{
+    
+}
+
+#box2{
+    
+}
+
+#box3{
+    
+}
 
 /*Contact me form*/
 
