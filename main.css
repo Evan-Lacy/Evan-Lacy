@@ -155,24 +155,29 @@ nav{
 
 .box{
     padding: 1rem;
-    margin: auto;
+    margin: 5em;
     border:solid 3px red;
+    color: white;
 }
 
 .box h3{
     text-decoration: underline;
+    text-align: center;
 }
 
 #box1{
-    
+    margin-left: 0em;
+    margin-right: 6em;
 }
 
 #box2{
-    
+    margin-right: 1em;
+    margin-left: 3em;
 }
 
 #box3{
-    
+    margin-right: 0em;
+    margin-left: 7em;
 }
 
 /*Contact me form*/
