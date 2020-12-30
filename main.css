@@ -79,24 +79,14 @@ nav{
     padding-top: 3%;
 }
 
-.aboutTitle{
-    text-align: center;
-    display: block;
-    margin: auto;
-}
-
-.aboutTitle h1{
+/* #aboutMe.h1{
     margin-bottom: 3rem;
-}
+} */
 
 .textBox{
     border-style: inset;
     width: 100%;
     padding: 25px;
-}
-
-.display-2{
-    text-align: center;
 }
 
 .aboutText{
@@ -117,7 +107,6 @@ nav{
 
 .linkButton{
     margin: 5em;
-    margin-left: 17em;
     padding:15px;
 }
 
@@ -136,12 +125,12 @@ nav{
     padding-bottom: 3%;
 }
 
-.container h1{
+/* .container h1{
     margin: auto;
     display: block;
     text-align: center;
     margin-bottom: 3rem;
-}
+} */
 
 .card-title{
     text-decoration: underline;
