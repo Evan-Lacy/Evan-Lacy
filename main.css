@@ -176,7 +176,7 @@ nav{
 
 /*Contact me form*/
 
-#contact{
+#contactme{
     background-image: url("./assets/Spitzer\ Telescope\ Peony\ Nebula.jpg");
     background-size: cover;
     width: 100%;
@@ -184,7 +184,7 @@ nav{
     padding-bottom: 3em;
 }
 
-#contact h1{
+#contactme h1{
     text-align: center;
     color: #37ae41;
 }
