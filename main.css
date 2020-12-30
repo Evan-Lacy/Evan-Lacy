@@ -33,23 +33,15 @@ nav{
     margin-left: 35%;
 }
 
-.navbar-collapse{
-    text-align: center;
-}
-
-#navbarNav{
-    margin-left: 50%;
-}
-
 /* The Jumbotron, for whatever reason that name exists */
 
 .jumbotron{
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     text-align: center;
-    background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(88,88,88,1) 65%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(88,88,88,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 #jumboContent{
@@ -67,12 +59,14 @@ nav{
     display: block;
     margin: auto;
     color: white;
+    font-size: 6em;
 }
 
 #secondLine{
     display: block;
     margin: auto;
     color: white;
+    font-size: 5em;
 }
 
 #secondLine span{
@@ -221,3 +215,35 @@ label{
 }
 
 /*Footer*/
+
+/*Mobile Version stuff - attempt 1*/
+@media(max-width: 600px){
+    
+    /*Nav*/
+    .navbar-brand{
+        margin-left: 0;
+    }
+
+    #navbarNav{
+        margin: 0;
+    }
+
+    .navbar-collapse{
+        text-align: center;
+    }
+
+    /*Jumbotron - still a helluva weird name*/
+    .jumbotron{
+        /* padding-top: 5em; */
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #firstLine{
+        font-size: 4em;
+    }
+
+    #secondLine{
+        font-size: 3em;
+    }
+}
