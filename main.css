@@ -109,9 +109,23 @@ nav{
 .linkButton:hover{
     opacity: 0.8;
 }
+/*Skills Icons*/
+#techSkills{
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(92, 228, 196);
+}
 
-/*Skills and lists*/
-#skills{
+#techSkills h1{
+    text-align: center;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/*Portfolio*/
+#portfolio{
     background-image: url("./assets/Geometric\ background.png");
     background-size: cover;
     width: 100%;
@@ -194,6 +208,11 @@ label{
 }
 
 /*Footer*/
+#footer{
+    background-color: rgb(5, 32, 101);
+    text-align: center;
+    color: white;
+}
 
 /*Mobile Version stuff - attempt 1*/
 @media(max-width: 600px){
@@ -224,5 +243,39 @@ label{
 
     #secondLine{
         font-size: 3em;
+    }
+
+    /*Skill icons*/
+    #arduino{
+        width: 25%;
+        margin-bottom: 1em;
+    }
+    #bootstrap{
+        width: 25%;
+    }
+    #csharp{
+        width: 25%;
+    }
+    #css{
+        width: 25%;
+    }
+    #github{
+        width: 25%;
+        margin-bottom: 1em;
+    }
+    #html{
+        width: 25%;
+    }
+    #js{
+        width: 25%;
+    }
+    #postman{
+        width: 25%;
+    }
+    #sql{
+        width: 25%;
+    }
+    #unreal{
+        width: 25%;
     }
 }
