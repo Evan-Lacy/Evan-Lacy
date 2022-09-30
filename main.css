@@ -73,6 +73,12 @@ nav{
     color: #37ae41;
 }
 
+#thirdLine{
+    display: block;
+    margin: auto;
+    color: #00b8e4;
+}
+
 /*About me*/
 #aboutMe{
     border-top: solid 5px black;
